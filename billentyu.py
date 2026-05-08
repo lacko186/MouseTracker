@@ -7,6 +7,6 @@ keyboard.write("#Szia!", delay=1)
 while True:
     billentyű = keyboard.read_key()
     if billentyű:
-        print(f"{billentyű}")
+        print(f"lenyomott billentyű: {billentyű}")
         if billentyű == "esc":
            break
